@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Banking Dashboard</title>
+</head>
+<body >
+    
+    
+    <div class="container">
+        <div id="titleContainer">
+            <img id="bankImg" src="bank.png">
+            <p id="title">Banking Dashboard</p>
+        </div>
+        <br id="br" >
+        <div id="contentbox">
+            <div id="balance_container">
+                <h2 style="margin-right: 40px;" id="curr_bal">Current balance  </h2>
+                <h2 style="margin-right: 40px;"> : </h2>
+
+                <h2>$</h2><h2 id="balance">1000</h2>
+            </div>
+
+            <div id="withdraw_container">
+                <h2>Withdraw amount   </h2>
+                <input id="with_amt" type="number" placeholder="Enter the amount...">
+                <button onclick="getWithNumber()" id="withdrawbutton">Withdraw</button>
+            </div>
+
+            <div id="deposit_container">
+                <h2>Deposit amount   </h2>
+                <input id="dep_amt" type="number" placeholder="Enter the amount...">
+                <button onclick="getNumber()" id="depositbutton">Deposit</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-content">
+               
+            </div>
+            <div class="footer-bottom">
+                <p> &copy; 2024 Banking dashboard. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
