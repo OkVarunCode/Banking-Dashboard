@@ -1,0 +1,139 @@
+* {
+    
+}
+html{
+    background-image: url('calculatorImg.jpg');
+    background-size: cover;
+}
+
+#bankImg {
+    height: 60px;
+    width: 60px;
+}
+body {
+    
+    background-size: cover;
+    margin: 0;
+    text-align: center;
+    
+}
+
+#titleContainer {
+    display: flex;
+    
+}
+
+#title {
+    margin: 0;
+    padding-top: 12px;
+    width: 270px;
+    color: rgb(54, 59, 33);
+    font-size:xx-large;
+    /* text-align: center; */
+}
+
+
+.container {
+    /* background-color: palegoldenrod; */
+    backdrop-filter: blur(20px);
+
+    height: 100%;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* margin: 3em; */
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style:groove;
+    border-color: #ABA9BF;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+#contentbox {
+    /* background-color: #868784; */
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+
+#deposit_container, #withdraw_container{
+    display: flex;
+    height: 60px;
+    /* background-color: aqua; */
+}
+
+#balance_container {
+    /* background-color: saddlebrown; */
+    display: flex;
+}
+
+#deposit_container {
+    /* background-color: skyblue; */
+
+}
+
+#dep_amt {
+    margin-left: 58px;
+    height: 50%;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px
+
+}
+
+#with_amt {
+    height: 50%;
+    margin-top: 15px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px
+
+}
+
+#depositbutton {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 60%;
+    width: 100px;
+    margin-left:30px;
+    margin-top: 12px;
+    background-color: rgb(198, 202, 198);
+    border-radius: 20px;
+    border: none;
+    border-style:ridge;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#depositbutton:active , #withdrawbutton:active {
+    transform: scale(0.98); 
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+#withdrawbutton {
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 60%;
+    width: 100px;
+    background-color: rgb(198, 202, 198);
+    
+    margin-left:30px;
+    margin-top: 12px;
+    border-radius: 20px;
+    border: none;
+    border-style:ridge;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
